@@ -59,38 +59,52 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit; }
+  color: inherit; 
+}
 
 li {
-  list-style: none; }
+  list-style: none; 
+}
+
 
 input:focus,
 button:focus,
 a:focus,
 textarea:focus {
-  outline: none; }
+  outline: none; 
+}
 
 button {
   border: none;
-  cursor: pointer; }
+  cursor: pointer; 
+}
 
 textarea {
-  resize: none; }
+  resize: none; 
+}
 
 .heading-primary {
   font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 3px;
-  text-align: center; }
-  @media only screen and (max-width: 37.5em) {
+  text-align: center; 
+}
+
+@media only screen and (max-width: 37.5em) {
     .heading-primary {
-      font-size: 4.5rem; } }
+      font-size: 4.5rem; 
+    } 
+}
 
 .heading-sec__mb-bg {
-  margin-bottom: 11rem; }
-  @media only screen and (max-width: 56.25em) {
+  margin-bottom: 11rem; 
+}
+
+@media only screen and (max-width: 56.25em) {
     .heading-sec__mb-bg {
-      margin-bottom: 8rem; } }
+      margin-bottom: 8rem; 
+    } 
+}
 
 .heading-sec__mb-med {
   margin-bottom: 9rem; }
@@ -139,17 +153,20 @@ textarea {
     .heading-sec__sub {
       font-size: 1.8rem; } }
   .heading-sec__sub--lt {
-    color: #eee; }
+    color: #eee; 
+}
 
 .heading-sm {
   font-size: 2.2rem;
   text-transform: uppercase;
-  letter-spacing: 1px; }
+  letter-spacing: 1px; 
+}
 
 .main-container {
   max-width: 120rem;
   margin: auto;
-  width: 92%; }
+  width: 92%; 
+}
 
 .btn {
   background: #fff;
@@ -160,13 +177,19 @@ textarea {
   font-weight: 700;
   border-radius: 5px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
-  transition: transform .3s; }
-  .btn:hover {
-    transform: translateY(-3px); }
-  .btn--bg {
+  transition: transform .3s; 
+}
+
+.btn:hover {
+    transform: translateY(-3px); 
+}
+
+.btn--bg {
     padding: 1.5rem 8rem;
-    font-size: 2rem; }
-  .btn--med {
+    font-size: 2rem; 
+}
+
+.btn--med {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
@@ -644,5 +667,7 @@ textarea {
 
 @-webkit-keyframes wheel {
   to {
-    opacity: 0;
+    opacity: 1;
     top: 27px; } }
+
+    
