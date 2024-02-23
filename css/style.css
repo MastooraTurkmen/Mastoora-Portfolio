@@ -4,7 +4,7 @@
 900 - 1200px:   Tablet landscape
 [1200 - 1800] is where our normal styles apply
 1800px + :      Big desktop
-$breakpoint arguement choices:
+$breakpoint argument choices:
 - phone
 - tab-port
 - tab-land
@@ -67,7 +67,7 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 a {
@@ -78,7 +78,6 @@ a {
 li {
   list-style: none;
 }
-
 
 input:focus,
 button:focus,
@@ -145,12 +144,12 @@ textarea {
 }
 
 .heading-sec__main--lt::after {
-  content: '';
+  content: "";
   background: #fff !important;
 }
 
 .heading-sec__main::after {
-  content: '';
+  content: "";
   position: absolute;
   top: calc(100% + 1.5rem);
   height: 5px;
@@ -209,7 +208,7 @@ textarea {
   font-weight: 700;
   border-radius: 5px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
 .btn:hover {
@@ -271,7 +270,12 @@ textarea {
 /* qwe */
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(var(--main-color), 0.8), rgba(var(--main-color), 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(
+      to right,
+      rgba(var(--main-color), 0.8),
+      rgba(var(--main-color), 0.8)
+    ),
+    url(../assets/svg/common-bg.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -322,7 +326,7 @@ textarea {
   display: block;
   padding: 1.2rem;
   border-bottom: 2px solid #eee;
-  transition: background .3s;
+  transition: background 0.3s;
 }
 
 .home-hero__social-icon-link:hover {
@@ -487,15 +491,24 @@ textarea {
 }
 
 .contact {
-  background: linear-gradient(to right, rgba(var(--main-color), 0.8), rgba(var(--main-color), 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(
+      to right,
+      rgba(var(--main-color), 0.8),
+      rgba(var(--main-color), 0.8)
+    ),
+    url(../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
 }
 
-
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(var(--main-color), 0.8), rgba(var(--main-color), 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(
+      to right,
+      rgba(var(--main-color), 0.8),
+      rgba(var(--main-color), 0.8)
+    ),
+    url(../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -652,7 +665,7 @@ textarea {
   align-items: center;
   cursor: pointer;
   color: #333;
-  transition: color .3s;
+  transition: color 0.3s;
 }
 
 .header__logo-container:hover {
@@ -709,7 +722,7 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
-  transition: color .3s;
+  transition: color 0.3s;
 }
 
 .header__link:hover {
@@ -750,10 +763,10 @@ textarea {
   top: 100%;
   visibility: hidden;
   opacity: 0;
-  transition: all .3s;
-  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
   -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 .header__sm-menu--active {
@@ -779,7 +792,7 @@ textarea {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
-  transition: color .3s;
+  transition: color 0.3s;
 }
 
 .header__sm-menu-link a:hover {
@@ -906,7 +919,7 @@ textarea {
 }
 
 .mouse::before {
-  content: '';
+  content: "";
   width: 5px;
   height: 5px;
   position: absolute;
@@ -916,8 +929,8 @@ textarea {
   background-color: #eee;
   border-radius: 50%;
   opacity: 1;
-  animation: wheel 1.3s infinite;
   -webkit-animation: wheel 1.3s infinite;
+  animation: wheel 1.3s infinite;
 }
 
 @keyframes wheel {
