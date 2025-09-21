@@ -1,375 +1,506 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Portfolio Template for Developer" />
+    <link rel="stylesheet" href="css/style.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Portfolio Template for Developer" />
-  <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Family -->
 
-  <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e67ad7e23f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Mastoora Turkmen Portfolio</title>
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-    rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/e67ad7e23f.js" crossorigin="anonymous"></script>
-  <title>Mastoora Turkmen Portfolio</title>
-</head>
+  <body>
+    <!-- Header -->
 
-<body>
-  <!-- Header -->
-
-  <header class="header">
-    <div class="header__content">
-      <div class="header__logo-container">
-        <div class="header__logo-img-cont">
-          <img src="./assets/img/avatar.jpg" alt="Mastoora Turkmen Logo Image" class="header__logo-img" />
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/img/avatar.jpg"
+              alt="Mastoora Turkmen Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Mastoora Turkmen</span>
         </div>
-        <span class="header__logo-sub">Mastoora Turkmen</span>
-      </div>
-      <div class="header__main">
-        <ul class="header__links">
-          <li class="header__link-wrapper">
-            <a href="./index.html" class="header__link"> Home </a>
-          </li>
-          <li class="header__link-wrapper">
-            <a href="./index.html#projects" class="header__link">
-              Projects
-            </a>
-          </li>
-          <li class="header__link-wrapper">
-            <a href="./index.html#about" class="header__link">About </a>
-          </li>
-          <li class="header__link-wrapper">
-            <a href="./index.html#contact" class="header__link"> Contact </a>
-          </li>
-        </ul>
-        <div class="header__main-ham-menu-cont">
-          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
-          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
-            class="header__main-ham-menu-close d-none" />
-        </div>
-      </div>
-    </div>
-    <div class="header__sm-menu">
-      <div class="header__sm-menu-content">
-        <ul class="header__sm-menu-links">
-          <li class="header__sm-menu-link">
-            <a href="./index.html"> Home </a>
-          </li>
-
-          <li class="header__sm-menu-link">
-            <a href="./index.html#about"> About </a>
-          </li>
-
-          <li class="header__sm-menu-link">
-            <a href="./index.html#projects"> Projects </a>
-          </li>
-
-          <li class="header__sm-menu-link">
-            <a href="./index.html#contact"> Contact </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </header>
-
-  <!-- Home Section -->
-
-  <section class="home-hero">
-    <div class="home-hero__content">
-      <h1 class="heading-primary">Hey, My name is Mastoora Turkmen</h1>
-      <div class="home-hero__info">
-        <p class="text-primary">
-          Full Stack Developer with four years of experience in building
-          responsive and user-friendly web applications. Skilled in both
-          frontend and backend development, with a strong focus on creating
-          seamless user experiences and efficient server-side logic.
-        </p>
-      </div>
-      <div class="home-hero__cta">
-        <a href="./#projects" class="btn btn--bg">See my projects</a>
-      </div>
-    </div>
-    <div class="home-hero__socials">
-      <div class="home-hero__social">
-        <a target="_blank" title="linkedin" href="https://www.linkedin.com/in/mastoora-turkmen/"
-          rel="noopener noreferrer" class="home-hero__social-icon-link">
-          <i class="fa-brands fa-linkedin fa-2xl"></i>
-        </a>
-      </div>
-      <div class="home-hero__social">
-        <a target="_blank" title="github" href="https://github.com/MastooraTurkmen/" rel="noopener noreferrer"
-          class="home-hero__social-icon-link">
-          <i class="fa-brands fa-github fa-2xl"></i>
-        </a>
-      </div>
-      <div class="home-hero__social">
-        <a target="_blank" title="twitter" href="https://twitter.com/MastooraJ22" rel="noopener noreferrer"
-          class="home-hero__social-icon-link">
-          <i class="fa-brands fa-square-twitter fa-2xl"></i>
-        </a>
-      </div>
-    </div>
-    <div class="home-hero__mouse-scroll-cont">
-      <div class="mouse"></div>
-    </div>
-  </section>
-
-  <!-- All Projects Section -->
-
-  <section id="projects" class="projects sec-pad">
-    <div class="main-container">
-      <h2 class="heading heading-sec heading-sec__mb-bg">
-        <span class="heading-sec__main">Projects</span>
-        <span class="heading-sec__sub">
-          All my projects include links to the code and live version. Click
-          the button to learn more about each one.
-        </span>
-      </h2>
-
-      <div class="projects__content">
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/img/Jobify-project1.png" alt="Software Screenshot" class="projects__row-img"
-              loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Jobify Full Stack website</h3>
-            <p class="projects__row-content-desc">
-              A dynamic job management platform built with a full stack architecture, allowing users to create, update,
-              and track job applications seamlessly. The project demonstrates expertise in both frontend and backend
-              development, featuring secure authentication, responsive design, and efficient data handling to deliver a
-              smooth user experience.
-            </p>
-            <a href="./project-1.html" class="btn btn--med btn--theme dynamicBgClr">Learn more</a>
-          </div>
-        </div>
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/img/Dentist-website.png" alt="Software Screenshot" class="projects__row-img"
-              loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Tannglege Engen As: Dentist Project</h3>
-            <p class="projects__row-content-desc">
-              The Tannglege Engen AS Website is a professional dental clinic website developed for my Norwegian client
-              to showcase their services, team, and contact information. The platform provides patients with an easy way
-              to learn about the clinic, explore available treatments, and get in touch for appointments.
-            </p>
-            <a href="./project-2.html" class="btn btn--med btn--theme dynamicBgClr">Learn more</a>
-          </div>
-        </div>
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/img/Store-Project.png" alt="Software Screenshot" class="projects__row-img"
-              loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">E-Commerce Store Project</h3>
-            <p class="projects__row-content-desc">
-              A modern and responsive online shopping platform built with React, TypeScript,
-              and Tailwind CSS, featuring dynamic product listings, detailed product pages, cart management, and
-              checkout functionality.
-            </p>
-            <a href="./project-3.html" class="btn btn--med btn--theme dynamicBgClr">Learn more</a>
-          </div>
-        </div>
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/img/software-website.png" alt="Software Screenshot" class="projects__row-img"
-              loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Global Software Services Website</h3>
-            <p class="projects__row-content-desc">
-              A modern software services website built with Next.js, React, Tailwind CSS, and Framer Motion, featuring
-              light/dark
-              mode, RTL layout support, and multilingual functionality (English and Arabic). It showcases my skills in
-              creating
-              responsive, accessible, and visually engaging websites with reusable components and smooth animations.
-            </p>
-            <a href="./project-4.html" class="btn btn--med btn--theme dynamicBgClr">Learn more</a>
-          </div>
-        </div>
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/img/Tenzies-Game.png" alt="Software Screenshot" class="projects__row-img"
-              loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Tenzies Game</h3>
-            <p class="projects__row-content-desc">
-              Tenzies is an exciting game application developed with ReactJS,
-              HTML, CSS, and JavaScript. The game's main objective is
-              straightforward: players must roll ten dice repeatedly until
-              they achieve the same number on all of them.
-            </p>
-            <a href="./project-5.html" class="btn btn--med btn--theme dynamicBgClr">Learn more</a>
-          </div>
-        </div>
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/img/dashboard.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Personal Dashboard</h3>
-            <p class="projects__row-content-desc">
-              A Chrome Extension that gives you an overview over the current
-              time, how the weather is like and how Dogecoin is performing.
-              Interacts with multiple APIs using async JS.
-            </p>
-            <a href="./project-6.html" class="btn btn--med btn--theme dynamicBgClr">Learn more</a>
-          </div>
-        </div>
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./assets/img/education-project.png" alt="Software Screenshot" class="projects__row-img"
-              loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Paper Airplanes Educational Website</h3>
-            <p class="projects__row-content-desc">
-              A collaborative project built with React, Framer Motion, and modern design principles, developed by three
-              developers
-              from Pakistan, India, and Afghanistan. The platform provides free programming resources through a
-              responsive and
-              visually engaging interface, highlighting both teamwork and creativity in frontend development.
-            </p>
-            <a href="./project-7.html" class="btn btn--med btn--theme dynamicBgClr">Learn more</a>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
           </div>
         </div>
       </div>
-    </div>
-  </section>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
 
-  <!-- About section -->
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
 
-  <section id="about" class="about sec-pad">
-    <div class="main-container">
-      <h2 class="heading heading-sec heading-sec__mb-med">
-        <span class="heading-sec__main">About Me</span>
-        <span class="heading-sec__sub">
-          <p>
-            I am a full stack web developer. With a Bachelor’s degree in Computer Science from California, USA, a GPA of
-            3.98, and over four years of experience as a full-stack developer. I have worked extensively with
-            <strong>HTML</strong>, <strong>CSS</strong>,
-            <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>React.js</strong>,
-            <strong>Next.js</strong>,
-            <strong>Redux</strong>, <strong>Tailwind CSS</strong>, <strong>Material UI</strong>, <strong>Shadcn
-              UI</strong>,
-            <strong>Git/GitHub</strong> to create responsive, user-friendly web applications.
-            On the back-end, I have built scalable server-side logic and <strong>RESTful APIs</strong> using
-            <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>MongoDB</strong> and
-            <strong>PostgresSQL</strong>.
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
 
-            I have been freelancing for the past four years, working with clients from various countries including
-            Afghanistan, Norway, USA, Singapore and Canada.
-
-            I got my first job as a freelance web developer through Linkedin, and since then I have completed over 10
-            projects for my clients. My latest job was on Coded For Humans Company based in Singapore, where I worked as
-            a
-            full stack developer.
-          </p>
-        </span>
-      </h2>
-      <div class="about__content">
-        <div class="about__content-main">
-          <h3 class="about__content-title">Get to know me!</h3>
-          <div class="about__content-details">
-            <p class="about__content-details-para">
-              My background is in teaching and marketing. I have a bachelors
-              degree in Computer Science from American University
-              <a target="_blank" rel="noopener noreferrer" href="https://www.uopeople.edu/">University of the
-                People</a>. When I'm not coding, I take care of my two adorable cats.
-            </p>
-          </div>
-          <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
-        </div>
-        <div class="about__content-skills">
-          <h3 class="about__content-title">My Skills</h3>
-          <div class="skills">
-            <div class="skills__skill">HTML</div>
-            <div class="skills__skill">CSS</div>
-            <div class="skills__skill">JavaScript</div>
-            <div class="skills__skill">React</div>
-            <div class="skills__skill">TypeScript</div>
-            <div class="skills__skill">Nodejs</div>
-            <div class="skills__skill">Expressjs</div>
-            <div class="skills__skill">MongoDB</div>
-            <div class="skills__skill">Redux</div>
-            <div class="skills__skill">Material UI</div>
-            <div class="skills__skill">Figma</div>
-            <div class="skills__skill">PostgresSQL</div>
-            <div class="skills__skill">Shadcn UI</div>
-            <div class="skills__skill">Tailwind CSS</div>
-            <div class="skills__skill">UI/UX Design</div>
-            <div class="skills__skill">GitHub</div>
-          </div>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- Contact Section -->
+    <!-- Home Section -->
 
-  <section id="contact" class="contact sec-pad dynamicBg">
-    <div class="main-container">
-      <h2 class="heading heading-sec heading-sec__mb-med">
-        <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-        <span class="heading-sec__sub heading-sec__sub--lt">
-          Please reach out if you have any questions! I'm happy to answer your
-          messages to brainstorm projects and ideas. Send me an email at
-          mastooraturkmen631@gmail.com.
-        </span>
-      </h2>
-    </div>
-  </section>
-
-  <!-- Footer Section -->
-
-  <footer class="main-footer">
-    <div class="main-container">
-      <div class="main-footer__upper">
-        <div class="main-footer__row main-footer__row-1">
-          <h2 class="heading heading-sm main-footer__heading-sm">
-            <span>Social</span>
-          </h2>
-          <div class="main-footer__social-cont">
-            <a class="main-footer__icon" target="_blank" title="linkedin" rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/mastoora-turkmen/">
-              <i class="fa-brands fa-linkedin fa-2xl"></i>
-            </a>
-            <a class="main-footer__icon" target="_blank" title="github" rel="noopener noreferrer"
-              href="https://github.com/MastooraTurkmen/">
-              <i class="fa-brands fa-github fa-2xl"></i>
-            </a>
-            <a class="main-footer__icon" target="_blank" title="twitter" rel="noopener noreferrer"
-              href="https://twitter.com/MastooraJ22">
-              <i class="fa-brands fa-square-twitter fa-2xl"></i>
-            </a>
-          </div>
-        </div>
-        <div class="main-footer__row main-footer__row-2">
-          <h4 class="heading heading-sm text-lt">Mastoora Turkmen</h4>
-          <p class="main-footer__short-desc">
-            A Software Engineer focused Web Developer building the Frontend of
-            Websites and Web Applications that leads to the success of the
-            overall product.
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, I'm Mastoora Turkmen</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Full Stack Developer with four years of experience in building
+            responsive and user-friendly web applications. Skilled in both
+            frontend and backend development, with a strong focus on creating
+            seamless user experiences and efficient server-side logic.
           </p>
         </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">See my projects</a>
+        </div>
       </div>
-      <div class="main-footer__lower">
-        &copy; Copyright 2025. Made by
-        <a rel="noreferrer" target="_blank" href="#">Mastoora Turkmen</a>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a
+            target="_blank"
+            title="linkedin"
+            href="https://www.linkedin.com/in/mastoora-turkmen/"
+            rel="noopener noreferrer"
+            class="home-hero__social-icon-link"
+          >
+            <i class="fa-brands fa-linkedin fa-2xl"></i>
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            target="_blank"
+            title="github"
+            href="https://github.com/MastooraTurkmen/"
+            rel="noopener noreferrer"
+            class="home-hero__social-icon-link"
+          >
+            <i class="fa-brands fa-github fa-2xl"></i>
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            target="_blank"
+            title="twitter"
+            href="https://twitter.com/MastooraJ22"
+            rel="noopener noreferrer"
+            class="home-hero__social-icon-link"
+          >
+            <i class="fa-brands fa-square-twitter fa-2xl"></i>
+          </a>
+        </div>
       </div>
-    </div>
-  </footer>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
 
-  <script src="./index.js"></script>
-</body>
+    <!-- All Projects Section -->
 
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            All my projects include links to the code and live version. Click
+            the button to learn more about each one.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/Jobify-project1.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">
+                Jobify Full Stack website
+              </h3>
+              <p class="projects__row-content-desc">
+                A dynamic job management platform built with a full stack
+                architecture, allowing users to create, update, and track job
+                applications seamlessly. The project demonstrates expertise in
+                both frontend and backend development, featuring secure
+                authentication, responsive design, and efficient data handling
+                to deliver a smooth user experience.
+              </p>
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/Dentist-website.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">
+                Tannglege Engen As: Dentist Project
+              </h3>
+              <p class="projects__row-content-desc">
+                The Tannglege Engen AS Website is a professional dental clinic
+                website developed for my Norwegian client to showcase their
+                services, team, and contact information. The platform provides
+                patients with an easy way to learn about the clinic, explore
+                available treatments, and get in touch for appointments.
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/Store-Project.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">
+                E-Commerce Store Project
+              </h3>
+              <p class="projects__row-content-desc">
+                A modern and responsive online shopping platform built with
+                React, TypeScript, and Tailwind CSS, featuring dynamic product
+                listings, detailed product pages, cart management, and checkout
+                functionality.
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/software-website.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">
+                Global Software Services Website
+              </h3>
+              <p class="projects__row-content-desc">
+                A modern software services website built with Next.js, React,
+                Tailwind CSS, and Framer Motion, featuring light/dark mode, RTL
+                layout support, and multilingual functionality (English and
+                Arabic). It showcases my skills in creating responsive,
+                accessible, and visually engaging websites with reusable
+                components and smooth animations.
+              </p>
+              <a
+                href="./project-4.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/Tenzies-Game.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Tenzies Game</h3>
+              <p class="projects__row-content-desc">
+                Tenzies is an exciting game application developed with ReactJS,
+                HTML, CSS, and JavaScript. The game's main objective is
+                straightforward: players must roll ten dice repeatedly until
+                they achieve the same number on all of them.
+              </p>
+              <a
+                href="./project-5.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/dashboard.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Personal Dashboard</h3>
+              <p class="projects__row-content-desc">
+                A Chrome Extension that gives you an overview over the current
+                time, how the weather is like and how Dogecoin is performing.
+                Interacts with multiple APIs using async JS.
+              </p>
+              <a
+                href="./project-6.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/education-project.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">
+                Paper Airplanes Educational Website
+              </h3>
+              <p class="projects__row-content-desc">
+                A collaborative project built with React, Framer Motion, and
+                modern design principles, developed by three developers from
+                Pakistan, India, and Afghanistan. The platform provides free
+                programming resources through a responsive and visually engaging
+                interface, highlighting both teamwork and creativity in frontend
+                development.
+              </p>
+              <a
+                href="./project-7.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            <p>
+              I am a full stack web developer. With a Bachelor’s degree in
+              Computer Science from California, USA, a GPA of 3.98, and over
+              four years of experience as a full-stack developer. I have worked
+              extensively with
+              <strong>HTML</strong>, <strong>CSS</strong>,
+              <strong>JavaScript</strong>, <strong>TypeScript</strong>,
+              <strong>React.js</strong>, <strong>Next.js</strong>,
+              <strong>Redux</strong>, <strong>Tailwind CSS</strong>,
+              <strong>Material UI</strong>, <strong>Shadcn UI</strong>,
+              <strong>Git/GitHub</strong> to create responsive, user-friendly
+              web applications. On the back-end, I have built scalable
+              server-side logic and <strong>RESTful APIs</strong> using
+              <strong>Node.js</strong>, <strong>Express.js</strong>,
+              <strong>MongoDB</strong> and <strong>PostgresSQL</strong>. I have
+              been freelancing for the past four years, working with clients
+              from various countries including Afghanistan, Norway, USA,
+              Singapore and Canada. I got my first job as a freelance web
+              developer through Linkedin, and since then I have completed over
+              10 projects for my clients. My latest job was on Coded For Humans
+              Company based in Singapore, where I worked as a full stack
+              developer.
+            </p>
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                My background is in teaching and marketing. I have a bachelors
+                degree in Computer Science from American University
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.uopeople.edu/"
+                  >University of the People</a
+                >. When I'm not coding, I take care of my two adorable cats.
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">TypeScript</div>
+              <div class="skills__skill">Nodejs</div>
+              <div class="skills__skill">Expressjs</div>
+              <div class="skills__skill">MongoDB</div>
+              <div class="skills__skill">Redux</div>
+              <div class="skills__skill">Material UI</div>
+              <div class="skills__skill">Figma</div>
+              <div class="skills__skill">PostgresSQL</div>
+              <div class="skills__skill">Shadcn UI</div>
+              <div class="skills__skill">Tailwind CSS</div>
+              <div class="skills__skill">UI/UX Design</div>
+              <div class="skills__skill">GitHub</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Please reach out if you have any questions! I'm happy to answer your
+            messages to brainstorm projects and ideas. Send me an email at
+            <a href="mailto:mastooraturkmen631@gmail.com" class="email-link"
+              >mastooraturkmen631@gmail.com</a
+            >.
+          </span>
+        </h2>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a
+                class="main-footer__icon"
+                target="_blank"
+                title="linkedin"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/mastoora-turkmen/"
+              >
+                <i class="fa-brands fa-linkedin fa-2xl"></i>
+              </a>
+              <a
+                class="main-footer__icon"
+                target="_blank"
+                title="github"
+                rel="noopener noreferrer"
+                href="https://github.com/MastooraTurkmen/"
+              >
+                <i class="fa-brands fa-github fa-2xl"></i>
+              </a>
+              <a
+                class="main-footer__icon"
+                target="_blank"
+                title="twitter"
+                rel="noopener noreferrer"
+                href="https://twitter.com/MastooraJ22"
+              >
+                <i class="fa-brands fa-square-twitter fa-2xl"></i>
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Mastoora Turkmen</h4>
+            <p class="main-footer__short-desc">
+              A Software Engineer focused Web Developer building the Frontend of
+              Websites and Web Applications that leads to the success of the
+              overall product.
+            </p>
+          </div>
+        </div>
+        <div class="main-footer__lower">
+          &copy; Copyright 2025. Made by
+          <a rel="noreferrer" target="_blank" href="#">Mastoora Turkmen</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
 </html>
